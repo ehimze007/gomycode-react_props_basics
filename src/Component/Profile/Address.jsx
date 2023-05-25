@@ -1,3 +1,3 @@
-export default function Address() {
-  return <h3>Lagos, Nigeria</h3>;
+export default function Address(props) {
+  return <h3>{props.address}</h3>;
 }

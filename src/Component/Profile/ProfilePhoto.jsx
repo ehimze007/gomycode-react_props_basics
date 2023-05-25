@@ -1,5 +1,3 @@
-import profilePhoto from "../../profile-photo.png";
-
-export default function ProfilePhoto() {
-  return <img src={profilePhoto} alt="My profile photo" />;
+export default function ProfilePhoto(props) {
+  return <img src={props.image} alt="My profile photo" />;
 }

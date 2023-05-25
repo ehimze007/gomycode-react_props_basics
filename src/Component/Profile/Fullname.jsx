@@ -1,3 +1,3 @@
-export default function Fullname() {
-  return <h1>Michael Peter</h1>;
+export default function Fullname(props) {
+  return <h1>{props.fullName}</h1>;
 }
