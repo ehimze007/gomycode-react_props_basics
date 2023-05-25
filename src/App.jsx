@@ -1,9 +1,14 @@
 import "./App.css";
+import ProfilePhoto from "./Component/Profile/ProfilePhoto";
+import Fullname from "./Component/Profile/Fullname";
+import Address from "./Component/Profile/Address";
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <ProfilePhoto />
+      <Fullname />
+      <Address />
     </div>
   );
 }
