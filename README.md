@@ -1,3 +1,3 @@
-# JSX Basics
+# React props basics
 
-A simple react app to demonstrate the use of JSX and custom components
+A simple react app to demonstrate the use of props and custom components
