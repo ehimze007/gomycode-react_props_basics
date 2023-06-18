@@ -6,10 +6,10 @@ function App() {
   return (
     <main>
       <Profile
-        fullName="Michael Peter"
+        fullName="Nathanael Ehimze"
         address="Lagos, Nigeria"
         profession="Software Engineer"
-        bio="programmer | otaku"
+        bio="programmer | baller"
       >
         {profilePhoto}
       </Profile>
